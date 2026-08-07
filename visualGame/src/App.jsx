@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// Change BrowserRouter to HashRouter
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ColorfulGame from './pages/ColourfulGame.jsx';
 import './app.css';
 
